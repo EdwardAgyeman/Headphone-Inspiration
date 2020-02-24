@@ -4,10 +4,14 @@
     font-family: 'Work Sans';
 }
 h1, h2 {color: #867772;}
-p {color: rgb(115, 115, 115);}
+p {
+    color: rgb(115, 115, 115);
+    line-height: 1.7em;
+}
+
 #beyond {
     width: 300px;
-    margin: 100px auto 100px auto;
+    margin: 150px auto 100px auto;
 }
 body {
     background-color: #2e2e2e;
@@ -27,17 +31,19 @@ ul {
 li {
     list-style-type: none;
     padding-left: 40px;
-    
 }
 header {
+    width: 100%;
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
-    margin: 0 50px;
+    margin: 20px 30px 0 30px;
 }
-
+/* --------------------------------------------------------------------------- */
 .section-about {
     width: 90vw;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
 }
 .section-about>img {
     width: 100%;
@@ -48,7 +54,6 @@ header {
     display: flex;
     justify-content: center;
 }
-
 #design-alchemy>img {
     height: 20%;
     width: 20%;
@@ -57,4 +62,27 @@ header {
 #design-alchemy-text {
     width: 35%;
     margin-left: 20px;
+}
+/* --------------------------------------------------------------------------- */
+.section-lounger {
+    height: 100vh;
+    display: flex;
+}
+#section-lounger-background {
+    height: 100vh;
+    width: 55vw;
+    background-image: url(../img/section-voyager.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#the-lounger-text {
+    height: 100vh;
+    width: 50vw;
+}
+#the-lounger-text>p {
+    margin: 100px 100px 0 50px;
+}
+#the-lounger-text>h1 {
+    margin: 170px 100px 100px 50px;
 }
