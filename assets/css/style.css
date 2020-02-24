@@ -1,0 +1,28 @@
+/* Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115) */
+
+* {
+    font-family: 'Work Sans';
+}
+body {
+    background-color: #2e2e2e;
+}
+a {
+    text-decoration: none;
+    color: #867772;
+}
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style-type: none;
+    padding-left: 40px;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
